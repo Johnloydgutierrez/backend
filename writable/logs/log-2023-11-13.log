@@ -1,0 +1,104 @@
+CRITICAL - 2023-11-13 05:53:20 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:59:44 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 05:59:50 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:00:27 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:09:23 --> Call to undefined method App\Models\AssignModel::sve
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\AssignController.php(31): CodeIgniter\Model->__call('sve', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:11:24 --> Call to undefined method App\Controllers\AssignController::respond()
+in APPPATH\Controllers\AssignController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:11:38 --> Call to undefined method App\Controllers\AssignController::respond()
+in APPPATH\Controllers\AssignController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:14:05 --> Call to undefined method App\Controllers\AssignController::respond()
+in APPPATH\Controllers\AssignController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:14:10 --> Call to undefined method App\Controllers\AssignController::respond()
+in APPPATH\Controllers\AssignController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 06:14:13 --> Call to undefined method App\Controllers\AssignController::respond()
+in APPPATH\Controllers\AssignController.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\AssignController->sve()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssignController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 07:15:35 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 07:16:35 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 07:16:36 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\MainController.php on line 39.
+ 1 APPPATH\Controllers\MainController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\MainController.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 07:17:23 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\MainController.php(39): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-13 07:17:55 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2766.
+ 1 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\MainController.php(39): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->del()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
