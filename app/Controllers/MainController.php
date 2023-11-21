@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\MainModel;
+use Mpdf\Mpdf;
 
 class MainController extends ResourceController
 {
@@ -38,7 +39,7 @@ class MainController extends ResourceController
 
         public function generatepdf() 
         { 
-            $model = new PpoModel();
+            $model = new MainModel();
             $data = $model->findAll();
 
             $mpdf = new Mpdf();
@@ -56,10 +57,16 @@ class MainController extends ResourceController
             }
             $mpdf->WriteHTML($html);
 
-            $outputFilePath = 'path/to/output.pdf';  // Adjust the path where you want to save the PDF
-            $mpdf->Output($outputFilePath, 'F');  // Save the PDF file
+
+            $mpdfContent = $mpdf->Output('', 'S');
+
+            header('Content-Type: application/pdf');
+            header('Content-Disposition: attach; filename="output.pdf"');
+            header('Cache-Length: ' . strlen($mpdfContent));
+
+
+            echo $mpdfContent;
         
-            return $outputFilePath;  // Return the path to the generated PDF
         }
 
     }
