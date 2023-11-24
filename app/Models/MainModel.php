@@ -7,13 +7,12 @@ use CodeIgniter\Model;
 class MainModel extends Model
 {
     protected $table            = 'ebikeparts';
-    protected $primaryKey       = 'id';
+    protected $primaryKey       = 'ID';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = ['name','description','brand','model','quantity', 'image', 'price',];
-
     // Dates
     protected $useTimestamps = false;
     protected $dateFormat    = 'datetime';

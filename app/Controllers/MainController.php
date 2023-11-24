@@ -20,8 +20,8 @@ class MainController extends ResourceController
     {
 
         $data = $this->request->getPost();
-        
-      
+
+
         $image = $this->request->getFile('image');
         $imageName = $image->getRandomName();
         $image->move(WRITEPATH . 'uploads', $imageName);
@@ -45,28 +45,38 @@ class MainController extends ResourceController
     }
 
     public function updateItem($id)
-    {
-        $main = new MainModel();
-        $data = $main->find($id);
-    
-        if (!$data) {
-            return $this->respond(['error' => 'Item not found.'], 404);
-        }
-    
-        // Get the new data from the request
-        $newData = $this->request->getRawInput();
-    
-        // Use the where clause to update the existing data
-        if ($main->set($newData)->where('id', $id)->update()) {
-            return $this->respond(['message' => 'Item updated successfully.'], 200);
-        } else {
-            return $this->respond(['error' => 'Unable to update item.'], 500);
-        }
-    }
-    
+  {
+      $main = new MainModel();
+      $data = $main->find($id);
 
-        public function generatepdf() 
-        { 
+      if (!$data) {
+          return $this->respond(['error' => 'Item not found.'], 404);
+      }
+
+      // Get the new data from the request
+      // $newData = $this->request->getRawInput();
+      $data = [
+          'name' => $this->request->getVar('name'),
+          'description' => $this->request->getVar('description'),
+          'brand' => $this->request->getVar('brand'),
+          'model' => $this->request->getVar('model'),
+          'quantity' => $this->request->getVar('quantity'),
+          'image' => $this->request->getVar('image'),
+          'price' => $this->request->getVar('price'),
+      ];
+      // Use the where clause to update the existing data
+      $main->set($data)->where('ID', $id)->update();
+      //
+      // if ($main->affectedRows() > 0) {
+      //     return $this->respond(['message' => 'Item updated successfully.'], 200);
+      // } else {
+      //     return $this->respond(['error' => 'Unable to update item.'], 500);
+      // }
+
+  }
+
+        public function generatepdf()
+        {
             $model = new MainModel();
             $data = $model->findAll();
 
@@ -94,9 +104,6 @@ class MainController extends ResourceController
 
 
             echo $mpdfContent;
-        
+
         }
     }
-
-    
-

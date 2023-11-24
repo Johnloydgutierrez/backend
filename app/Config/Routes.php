@@ -12,6 +12,6 @@ $routes->get('/Assign', 'AssignController::Assign');
 $routes->post('/sve', 'AssignController::sve');
 $routes->match(['post','get'],'/login', 'AdminController::login');
 $routes->match(['post','get'],'/register', 'AdminController::register');
-$routes->post('updateItem/(:num)', 'MainController::updateItem/$1');
+$routes->post('updateItem/(:any)', 'MainController::updateItem/$1');
 $routes->get('/getPartss', 'InvoiceController::getPartss');
 $routes->get('/getEList', 'InvoiceController::getEList');
