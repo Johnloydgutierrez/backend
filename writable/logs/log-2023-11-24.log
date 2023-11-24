@@ -1,0 +1,6 @@
+CRITICAL - 2023-11-24 02:50:05 --> Class "App\Controllers\ElistModel" not found
+in APPPATH\Controllers\InvoiceController.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

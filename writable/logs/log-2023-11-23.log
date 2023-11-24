@@ -1,0 +1,29 @@
+CRITICAL - 2023-11-23 03:49:39 --> Undefined array key "id"
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 APPPATH\Controllers\InvoiceController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 03:49:40 --> Undefined array key "id"
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 APPPATH\Controllers\InvoiceController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 03:51:39 --> Undefined array key "id"
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 APPPATH\Controllers\InvoiceController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 03:52:49 --> Undefined array key "id"
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 APPPATH\Controllers\InvoiceController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
