@@ -12,5 +12,6 @@ $routes->get('/Assign', 'AssignController::Assign');
 $routes->post('/sve', 'AssignController::sve');
 $routes->match(['post','get'],'/login', 'AdminController::login');
 $routes->match(['post','get'],'/register', 'AdminController::register');
-$routes->resource('update', ['controller' => 'MainController']);
+$routes->post('updateItem/(:num)', 'MainController::updateItem/$1');
+
 

@@ -18,9 +18,10 @@ class MainController extends ResourceController
 
     public function save()
     {
+
         $data = $this->request->getPost();
         
-        // Handle image upload
+      
         $image = $this->request->getFile('image');
         $imageName = $image->getRandomName();
         $image->move(WRITEPATH . 'uploads', $imageName);
@@ -36,6 +37,33 @@ class MainController extends ResourceController
             return $this->respond(['error' => 'Unable to save product.'], 500);
         }
     }
+
+    public function handleImageUpload($image, $prods)
+    {
+        $image->move(ROOTPATH . 'public/images/' , $prods);
+        return 'images/' . $prods;
+    }
+
+    public function updateItem($id)
+    {
+        $main = new MainModel();
+        $data = $main->find($id);
+    
+        if (!$data) {
+            return $this->respond(['error' => 'Item not found.'], 404);
+        }
+    
+        // Get the new data from the request
+        $newData = $this->request->getRawInput();
+    
+        // Use the where clause to update the existing data
+        if ($main->set($newData)->where('id', $id)->update()) {
+            return $this->respond(['message' => 'Item updated successfully.'], 200);
+        } else {
+            return $this->respond(['error' => 'Unable to update item.'], 500);
+        }
+    }
+    
 
         public function generatepdf() 
         { 
@@ -68,6 +96,7 @@ class MainController extends ResourceController
             echo $mpdfContent;
         
         }
-
     }
+
+    
 
