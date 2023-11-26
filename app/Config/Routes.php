@@ -15,3 +15,9 @@ $routes->match(['post','get'],'/register', 'AdminController::register');
 $routes->post('updateItem/(:any)', 'MainController::updateItem/$1');
 $routes->get('/getPartss', 'InvoiceController::getPartss');
 $routes->get('/getEList', 'InvoiceController::getEList');
+$routes->post('del', 'AssignController::del');
+
+
+
+
+
