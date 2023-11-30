@@ -1,0 +1,141 @@
+ERROR - 2023-11-30 07:08:56 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 07:08:56 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 07:09:32 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 07:09:32 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 07:56:45 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 07:57:41 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 07:59:59 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:00:19 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:00:48 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:01:11 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->sve()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:02:06 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 15.
+ 1 APPPATH\Controllers\EbikeController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:12:15 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:12:37 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:17:23 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:19:29 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:19:43 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 08:20:42 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
