@@ -1,0 +1,396 @@
+ERROR - 2023-12-01 00:26:27 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-01 00:26:27 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 00:27:04 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-12-01 00:27:04 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:08:40 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:08:40 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:08:40 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:08:41 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:10:41 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:10:43 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:10:43 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:10:43 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:11:58 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:14:36 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:16:03 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:16:04 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 01:17:18 --> Call to a member function getName() on null
+in APPPATH\Controllers\EbikeController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:20:22 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:20:22 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:20:23 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:20:23 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:22:28 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:22:28 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:37:38 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:37:38 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:45:32 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:45:32 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 01:49:19 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 01:49:19 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 03:16:05 --> Call to a member function getName() on null
+in APPPATH\Controllers\EbikeController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:06:31 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:06:33 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:07:51 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:08:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:08:49 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:08:50 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:12:36 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:13:46 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:15:22 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:17:11 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-01 05:17:32 --> Call to a member function getName() on null
+in APPPATH\Controllers\MainController.php on line 56.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-12-01 05:21:20 --> mysqli_sql_exception: Column 'category' cannot be null in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `eb...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `eb...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `eb...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `eb...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\backend\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\backend\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\backend\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\backend\app\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+#10 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+#11 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-12-01 05:21:20 --> Column 'category' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ebikelist` (`productName`, `description`, `category`, `price`, `categImage`) VALUES (:productName:, :description:, :category:, :price:, :categImage:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EbikeController.php(67): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

@@ -12,7 +12,7 @@ class PartsModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name', 'description', 'brand', 'model', 'quantity', 'price'];
+    protected $allowedFields    = ['name', 'description', 'brand', 'model', 'quantity', 'price','image'];
 
     // Dates
     protected $useTimestamps = false;

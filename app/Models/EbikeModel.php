@@ -12,7 +12,7 @@ class EbikeModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['productName', 'description', 'category','price'];
+    protected $allowedFields    = ['productName', 'description', 'category','price','categImage'];
 
     // Dates
     protected $useTimestamps = false;

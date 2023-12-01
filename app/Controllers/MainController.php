@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\RESTful\ResourceController;
 use App\Models\MainModel;
+use App\Models\PartsModel;
 use Mpdf\Mpdf;
 
 class MainController extends ResourceController
@@ -15,33 +16,69 @@ class MainController extends ResourceController
         $data = $main->findAll();
         return $this->respond($data, 200);
     }
+    public function ebikepartsGetData()
+    {
+        $main = new PartsModel();
+        $data = $main->findAll();
+        return $this->respond($data, 200);
+    }
+
+
+    // public function save()
+    // {
+    //
+    //     $data = $this->request->getPost();
+    //
+    //
+    //     $image = $this->request->getFile('image');
+    //     $imageName = $image->getRandomName();
+    //     $image->move(WRITEPATH . 'uploads', $imageName);
+    //
+    //     $data['image'] = $imageName;
+    //
+    //     $main = new MainModel();
+    //     $result = $main->save($data);
+    //
+    //     if ($result) {
+    //         return $this->respond(['message' => 'Product saved successfully.'], 201);
+    //     } else {
+    //         return $this->respond(['error' => 'Unable to save product.'], 500);
+    //     }
+    // }
 
     public function save()
     {
+        try {
+            // Use CodeIgniter's file helper to handle file uploads
+            $partsImage = $this->request->getFile('image');
 
-        $data = $this->request->getPost();
+            // Use the provided image name
+            $imageName = $partsImage->getName();
 
+            $data = [
+                'name' => $this->request->getPost('name'),
+                'description' => $this->request->getPost('description'),
+                'brand' => $this->request->getPost('brand'),
+                'model' => $this->request->getPost('model'),
+                'quantity' => $this->request->getPost('quantity'),
+                'image' => base_url() . $this->handleImageUpload($partsImage, $imageName),
 
-        $image = $this->request->getFile('image');
-        $imageName = $image->getRandomName();
-        $image->move(WRITEPATH . 'uploads', $imageName);
+            ];
 
-        $data['image'] = $imageName;
+            $partsModel = new PartsModel();
+            $savedData = $partsModel->save($data);
 
-        $main = new MainModel();
-        $result = $main->save($data);
-
-        if ($result) {
-            return $this->respond(['message' => 'Product saved successfully.'], 201);
-        } else {
-            return $this->respond(['error' => 'Unable to save product.'], 500);
+            return $this->respond($savedData, 200);
+        } catch (\Exception $e) {
+            log_message('error', 'Error saving data:' . $e->getMessage());
+            return $this->failServerError('An error occurred while saving the data.');
         }
     }
 
-    public function handleImageUpload($image, $prods)
+    public function handleImageUpload($partsImage, $imageName)
     {
-        $image->move(ROOTPATH . 'public/images/' , $prods);
-        return 'images/' . $prods;
+        $partsImage->move(ROOTPATH . 'public/uploads/' , $imageName);
+        return 'uploads/' .$imageName;
     }
 
     public function updateItem($id)

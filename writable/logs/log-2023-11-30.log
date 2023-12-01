@@ -139,3 +139,325 @@ in APPPATH\Controllers\EbikeController.php on line 16.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 11:36:23 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 11:36:23 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:37:27 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:37:29 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:38:14 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:38:15 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:38:16 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:38:16 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:38:16 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:39:11 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\MainController.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 11:40:24 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 11:40:24 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 11:40:55 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 11:40:55 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 11:41:47 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 11:41:47 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:39 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:40 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:40 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:41 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:41 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:43:41 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:44:25 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 11:44:56 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\EbikeController.php on line 16.
+ 1 APPPATH\Controllers\EbikeController.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\laragon\\www\\backend\\app\\Controllers\\EbikeController.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 13:07:42 --> Class "App\Controllers\PartsModel" not found
+in APPPATH\Controllers\MainController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 13:08:03 --> Class "App\Controllers\PartsModel" not found
+in APPPATH\Controllers\MainController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 13:08:15 --> Class "App\Controllers\PartsModel" not found
+in APPPATH\Controllers\MainController.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\MainController->save()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 14:04:56 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 14:04:56 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 14:44:14 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 14:44:14 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 15:51:40 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 15:51:40 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 15:53:01 --> mysqli_sql_exception: Table 'appdev.elist' doesn't exist in C:\laragon\www\backend\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\backend\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\backend\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\backend\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\backend\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\backend\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\backend\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\backend\app\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\backend\system\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+#8 C:\laragon\www\backend\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+#9 C:\laragon\www\backend\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\backend\public\index.php(86): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-11-30 15:53:01 --> Table 'appdev.elist' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `elist`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\InvoiceController.php(26): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getEList()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
