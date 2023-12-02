@@ -12,7 +12,7 @@ class InvoicepModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['datep', 'customerp', 'parts', 'quantityp', 'totalAmountp'];
+    protected $allowedFields    = ['datep', 'customerp', 'category', 'parts', 'quantityp', 'totalAmountp'];
 
     // Dates
     protected $useTimestamps = false;

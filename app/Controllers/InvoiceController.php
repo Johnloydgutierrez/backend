@@ -6,6 +6,7 @@ use App\Controllers\BaseController;
 use CodeIgniter\Restful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\InvoiceModel;
+use App\Models\InvoicepModel;
 use App\Models\EbikeModel;
 use App\Models\PartsModel;
 use App\Models\CategoryModel;
@@ -47,14 +48,19 @@ class InvoiceController extends BaseController
 
       public function saveinvoice()
       {
-              $json = $this->request->getJSON();
-              $data = [
-                  'date' => $json->date,
-                  'customer' => $json->customer,
-                  'category' => $json->category,
-                  'product' => $json->product,
-                  'quantity' => $json->quantity,
-                  'totalAmount' => $json->totalAmount,
+        $json = $this->request->getJSON();
+        $categoryModel = new CategoryModel();
+           $category = $categoryModel->find($json->category);
+$ebikeModel = new EbikeModel();
+$product = $ebikeModel->find($json->product);
+
+$data = [
+    'date' => $json->date,
+    'customer' => $json->customer,
+    'category' => $category['category_name'],
+    'product' => $product['productName'], // Assuming the column name is 'productName'
+    'quantity' => $json->quantity,
+    'totalAmount' => $json->totalAmount,
               ];
 
               $main = new InvoiceModel();
@@ -64,14 +70,19 @@ class InvoiceController extends BaseController
 
           public function saveinvoicep()
           {
-                  $json = $this->request->getJSON();
-                  $data = [
-                      'datep' => $json->datep,
-                      'customerp' => $json->customerp,
-                      'categoryp' => $json->categoryp,
-                      'parts' => $json->parts,
-                      'quantityp' => $json->quantityp,
-                      'totalAmountp' => $json->totalAmountp,
+            $json = $this->request->getJSON();
+            $categoryModel = new CategoryModel();
+               $category = $categoryModel->find($json->category);
+    $ebikepartsModel = new PartsModel();
+    $parts = $ebikepartsModel->find($json->parts);
+
+    $data = [
+        'datep' => $json->datep,
+        'customerp' => $json->customerp,
+        'categoryp' => $category['category_name'],
+        'parts' => $parts['name'], // Assuming the column name is 'productName'
+        'quantityp' => $json->quantity,
+        'totalAmountp' => $json->totalAmount,
                   ];
 
                   $mainnn = new InvoicepModel();
