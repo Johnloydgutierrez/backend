@@ -20,3 +20,7 @@ $routes->post('/save-product', 'EbikeController::save');
 $routes->get('/ebikepartsGetData', 'MainController::ebikepartsGetData');
 $routes->get('/ebikecategGetData', 'EbikeController::ebikecategGetData');
 $routes->post('/categsave', 'EbikeController::categsave');
+$routes->post('/saveinvoice', 'InvoiceController::saveinvoice');
+$routes->post('/saveinvoicep', 'InvoiceController::saveinvoicep');
+$routes->get('/getInvoice', 'InvoiceController::getInvoice');
+$routes->get('/getCategory', 'InvoiceController::getCategory');

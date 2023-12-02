@@ -1,0 +1,321 @@
+CRITICAL - 2023-12-02 03:02:23 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:08:38 --> Undefined property: stdClass::$categoryp
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoryp', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoicep()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:11:22 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:15:27 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:15:42 --> Undefined property: stdClass::$categoryp
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoryp', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoicep()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:34:47 --> Undefined property: stdClass::$product
+in APPPATH\Controllers\InvoiceController.php on line 46.
+ 1 APPPATH\Controllers\InvoiceController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$product', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 46)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:52 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:53 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:54 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:54 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:54 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:54 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 03:46:54 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:45 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:46 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:47 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:48 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:48 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:48 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:02:48 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:28 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:29 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:29 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:29 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:29 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:29 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:30 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:30 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:30 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:30 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:31 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:31 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:31 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:31 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:31 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:32 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:32 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:32 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:32 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:33 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:33 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:34 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:07:34 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:19:35 --> Class "App\Controllers\CategoryModel" not found
+in APPPATH\Controllers\InvoiceController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:20:30 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:20:59 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:21:17 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:21:24 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:21:26 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:23:57 --> Undefined constant "App\Models\category_name"
+in APPPATH\Controllers\InvoiceController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->getCategory()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:32:06 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:33:47 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-02 04:33:51 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
