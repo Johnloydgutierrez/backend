@@ -80,7 +80,7 @@ $data = [
         'datep' => $json->datep,
         'customerp' => $json->customerp,
         'categoryp' => $category['category_name'],
-        'parts' => $parts['name'], // Assuming the column name is 'productName'
+        'parts' => $parts['name'],
         'quantityp' => $json->quantity,
         'totalAmountp' => $json->totalAmount,
                   ];
