@@ -134,3 +134,118 @@ in APPPATH\Controllers\InvoiceController.php on line 63.
  3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
  4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:37:32 --> Too few arguments to function App\Controllers\InvoiceController::saveinvoice(), 0 passed in D:\laragon\www\backend\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:37:51 --> Too few arguments to function App\Controllers\InvoiceController::saveinvoice(), 0 passed in D:\laragon\www\backend\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\InvoiceController.php on line 49.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:42:54 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:43:37 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:44:23 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:44:37 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:45:16 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:45:45 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 12:46:17 --> Undefined array key "productName"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "productName"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:12:53 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:14:47 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:14:51 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:14:51 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:14:51 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 13:14:51 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\InvoiceController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\InvoiceController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\InvoiceController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

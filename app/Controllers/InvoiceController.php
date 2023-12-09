@@ -45,53 +45,57 @@ class InvoiceController extends BaseController
           return $this->response->setJSON($data, 200);
 
         }
+//
+public function saveinvoice()
+{
+    $json = $this->request->getJSON();
 
-        public function saveinvoice()
-        {
-            $json = $this->request->getJSON();
-            $categoryModel = new CategoryModel();
-            $category = $categoryModel->find($json->category);
-            $ebikeModel = new EbikeModel();
-            $product = $ebikeModel->find($json->product);
-            $ebikepartsModel = new PartsModel();
-            $parts = $ebikepartsModel->find($json->parts);
+    // Fetch data from models
+    $categoryModel = new CategoryModel();
+    $category = $categoryModel->find($json->category);
 
-            // Fetch the invoice data
-            $sales = new InvoiceModel();
-            $productt = new EbikeModel();
+    $ebikeModel = new EbikeModel();
+    $product = $ebikeModel->find($json->product);
 
-            $id = $json->invoiceID; // Assuming you have an 'invoiceId' in your JSON
+    $ebikepartsModel = new PartsModel();
+    $parts = $ebikepartsModel->find($json->parts);
 
-            $d = $sales->where('id', $id)->findAll();
+    // Update quantities in EbikeModel
+    $sales = new InvoiceModel();
+    $productt = new EbikeModel();
 
-            foreach ($d as $v) {
-                $pid = $v['productName'];
-                $quantity = $v['quantity'];
-                $h = $productt->where('id', $pid)->first();
+    $id = $json->invoiceID;
+    $invoiceData = $sales->where('invoiceID', $id)->findAll();
 
-                // Update the quantity in the EbikeModel
-                $newQuantity = $h['quantity'] - $quantity;
-                $productt->update($pid, ['quantity' => $newQuantity]);
-            }
+    foreach ($invoiceData as $item) {
+        $productId = $item['productName'];
+        $quantity = $item['quantity'];
 
-            // Save the invoice data
-            $data = [
-              'invoiceID' => $json->invoiceID,
-                'customer' => $json->customer,
-                'category' => $category['category_name'],
-                'product' => $product['productName'],
-                'quantity' => $json->quantity,
-                'totalAmount' => $json->totalAmount,
-                'parts' => $parts['name'],
-                'quantityp' => $json->quantityp,
-                'totalAmountp' => $json->totalAmountp,
-                'grandAmountp' => $json->grandAmountp,
-            ];
+        $productData = $productt->find($productId);
+        $newQuantity = $productData['quantity'] - $quantity;
 
-            $main = new InvoiceModel();
-            $r = $main->save($data);
+        $productt->update($productId, ['quantity' => $newQuantity]);
+    }
 
-            return $this->respond($data, 200);
-        }
+    // Save the invoice data
+    $data = [
+        'invoiceID' => $json->invoiceID,
+        'customer' => $json->customer,
+        'category' => $category['category_name'],
+        'product' => $product['productName'],
+        'quantity' => $json->quantity,
+        'totalAmount' => $json->totalAmount,
+        'parts' => $parts['name'],
+        'quantityp' => $json->quantityp,
+        'totalAmountp' => $json->totalAmountp,
+        'grandAmountp' => $json->grandAmountp,
+    ];
+
+    $main = new InvoiceModel();
+    $main->save($data);
+
+    return $this->respond($data, 200);
+}
+
 
       }
