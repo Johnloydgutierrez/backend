@@ -57,7 +57,9 @@ class EbikeController extends ResourceController
               'productName' => $this->request->getPost('productName'),
               'description' => $this->request->getPost('description'),
               'category' => $this->request->getPost('category'),
+                'quantity' => $this->request->getPost('quantity'),
               'price' => $this->request->getPost('price'),
+
 
               'categImage' => base_url() . $this->handleImageUpload($categImage, $imageName),
 

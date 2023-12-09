@@ -109,16 +109,16 @@ class GenerateKey extends BaseCommand
     /**
      * Generates a key and encodes it.
      */
-    protected function generateRandomKey(string $prefix, int $length): string
-    {
-        $key = Encryption::createKey($length);
+     protected function generateRandomKey(string $prefix, int $length): string
+     {
+         $key = Encryption::createKey($length);
 
-        if ($prefix === 'hex2bin') {
-            return 'hex2bin:' . bin2hex($key);
-        }
+         if ($prefix === 'hex2bin') {
+             return 'hex2bin:' . bin2hex($key);
+         }
 
-        return 'base64:' . base64_encode($key);
-    }
+         return 'base64:' . base64_encode($key);
+     }
 
     /**
      * Sets the new encryption key in your .env file.

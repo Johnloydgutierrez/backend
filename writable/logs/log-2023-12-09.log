@@ -1,0 +1,136 @@
+CRITICAL - 2023-12-09 05:46:12 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 05:46:13 --> Call to undefined method App\Controllers\InvoiceController::respond()
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 05:56:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 66.
+ 1 APPPATH\Controllers\InvoiceController.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:03:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 65.
+ 1 APPPATH\Controllers\InvoiceController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:03:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 65.
+ 1 APPPATH\Controllers\InvoiceController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:06:02 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 65.
+ 1 APPPATH\Controllers\InvoiceController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:31:20 --> Call to a member function getName() on null
+in APPPATH\Controllers\EbikeController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:31:22 --> Call to a member function getName() on null
+in APPPATH\Controllers\EbikeController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:33:48 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 61.
+ 1 APPPATH\Controllers\InvoiceController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:33:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 61.
+ 1 APPPATH\Controllers\InvoiceController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:33:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 61.
+ 1 APPPATH\Controllers\InvoiceController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:35:39 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:35:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:35:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:35:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\InvoiceController.php on line 62.
+ 1 APPPATH\Controllers\InvoiceController.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:53:46 --> Undefined property: stdClass::$grandAmountp
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$grandAmountp', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 06:53:51 --> Undefined property: stdClass::$grandAmountp
+in APPPATH\Controllers\InvoiceController.php on line 68.
+ 1 APPPATH\Controllers\InvoiceController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$grandAmountp', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:11:12 --> Undefined variable $id
+in APPPATH\Controllers\InvoiceController.php on line 61.
+ 1 APPPATH\Controllers\InvoiceController.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:13:54 --> Undefined property: stdClass::$invoiceId
+in APPPATH\Controllers\InvoiceController.php on line 63.
+ 1 APPPATH\Controllers\InvoiceController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$invoiceId', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-09 08:14:14 --> Undefined property: stdClass::$invoiceId
+in APPPATH\Controllers\InvoiceController.php on line 63.
+ 1 APPPATH\Controllers\InvoiceController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$invoiceId', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()

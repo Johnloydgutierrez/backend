@@ -12,7 +12,7 @@ class InvoiceModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['date', 'customer', 'product', 'category', 'price', 'quantity', 'totalAmount'];
+    protected $allowedFields    = ['invoiceID', 'customer', 'product', 'category', 'quantity', 'totalAmount', 'parts', 'quantityp', 'totalAmountp', 'grandAmountp'];
 
     // Dates
     protected $useTimestamps = false;
