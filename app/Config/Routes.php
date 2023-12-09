@@ -24,4 +24,5 @@ $routes->post('/saveinvoice', 'InvoiceController::saveinvoice');
 $routes->post('/saveinvoicep', 'InvoiceController::saveinvoicep');
 $routes->get('/getInvoice', 'InvoiceController::getInvoice');
 $routes->get('/getCategory', 'InvoiceController::getCategory');
+$routes->get('/generatePdf', 'InvoiceController::generatePdf');
 
