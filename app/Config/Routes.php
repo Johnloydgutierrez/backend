@@ -26,3 +26,4 @@ $routes->get('/getInvoice', 'InvoiceController::getInvoice');
 $routes->get('/getCategory', 'InvoiceController::getCategory');
 $routes->get('/generatePdf', 'InvoiceController::generatePdf');
 
+

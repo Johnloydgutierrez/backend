@@ -98,37 +98,58 @@ public function saveinvoice()
     return $this->respond($data, 200);
 }
 
-public function generatepdf()
-{
-    $model = new InvoiceModel();
-    $data = $model->findAll();
+public function generatePdf(){
+    $model = new InvoiceModel(); 
+    $data = $model->findAll(); 
 
+    // Load mPDF library
     $mpdf = new Mpdf();
 
-
+    // Set your header and footer HTML content
     $header = '<h1>Your PDF Header</h1>';
     $footer = '<div style="text-align: center; font-style: italic;">Your PDF Footer</div>';
 
-    $mpdf->setHTMLHeader($header);
+    // Set header and footer
+    $mpdf->SetHTMLHeader($header);
     $mpdf->SetHTMLFooter($footer);
 
+    // Create PDF content
     $html = '<h2>Data from Database</h2>';
-    foreach ($data as $row) {
-        $html .= '<p>' . implode(', ', (array) $row) . '</p>';
+
+    // Add a table
+    $html .= '<table border="1" cellspacing="0" cellpadding="5">';
+    
+    // Add table headers
+    $html .= '<tr>';
+    foreach (array_keys((array)$data[0]) as $header) {
+        $html .= '<th>' . $header . '</th>';
     }
+    $html .= '</tr>';
+
+    // Add table rows
+    foreach ($data as $row) {
+        $html .= '<tr>';
+        foreach ((array)$row as $value) {
+            $html .= '<td>' . $value . '</td>';
+        }
+        $html .= '</tr>';
+    }
+
+    $html .= '</table>';
+
+    // Add content to PDF
     $mpdf->WriteHTML($html);
 
+    // Get the PDF content as a string
+    $pdfContent = $mpdf->Output('', 'S'); // 'S' returns the PDF as a string
 
-    $mpdfContent = $mpdf->Output('', 'S');
-
+    // Send appropriate headers
     header('Content-Type: application/pdf');
-    header('Content-Disposition: attach; filename="output.pdf"');
-    header('Cache-Length: ' . strlen($mpdfContent));
+    header('Content-Disposition: attachment; filename="output.pdf"');
+    header('Content-Length: ' . strlen($pdfContent));
 
-
-    echo $mpdfContent;
+    // Output the PDF content
+    echo $pdfContent;
 
 }
 }
-
-
