@@ -62,6 +62,7 @@ class MainController extends ResourceController
                 'model' => $this->request->getPost('model'),
                 'quantity' => $this->request->getPost('quantity'),
                 'image' => base_url() . $this->handleImageUpload($partsImage, $imageName),
+                'price' => $this->request->getPost('price'),
 
             ];
 
