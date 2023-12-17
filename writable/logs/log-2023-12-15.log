@@ -1,0 +1,195 @@
+CRITICAL - 2023-12-15 00:27:03 --> Undefined array key "name"
+in APPPATH\Controllers\InvoiceController.php on line 85.
+ 1 APPPATH\Controllers\InvoiceController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 00:27:06 --> Undefined array key "name"
+in APPPATH\Controllers\InvoiceController.php on line 85.
+ 1 APPPATH\Controllers\InvoiceController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\laragon\\www\\backend\\app\\Controllers\\InvoiceController.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\InvoiceController->saveinvoice()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:34:27 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:35:21 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:36:26 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:36:39 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:38:12 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-12-15 03:38:28 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-12-15 03:39:24 --> Call to a member function getName() on null
+in APPPATH\Controllers\EbikeController.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\EbikeController->categsave()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EbikeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:42:30 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:num)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:num)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
+CRITICAL - 2023-12-15 03:42:59 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
+CRITICAL - 2023-12-15 03:43:01 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
+CRITICAL - 2023-12-15 03:45:00 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
+CRITICAL - 2023-12-15 03:45:02 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\backend\\public\\index.php')
+CRITICAL - 2023-12-15 03:45:11 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:46:51 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:46:58 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:47:00 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:47:52 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:48:34 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:48:38 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:49:49 --> CodeIgniter\Router\RouteCollection::match(): Argument #1 ($verbs) must be of type array, string given, called in D:\laragon\www\backend\system\Router\RouteCollection.php on line 1005
+in SYSTEMPATH\Router\RouteCollection.php on line 996.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1005): CodeIgniter\Router\RouteCollection->match('updateI/(:any)', 'EbikeController::updateI/$1', null)
+ 2 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], 'updateI/(:any)', 'EbikeController::updateI/$1')
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('D:\\laragon\\www\\backend\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(86): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-15 03:57:17 --> Declaration of App\Controllers\EbikeController::delete() must be compatible with CodeIgniter\RESTful\ResourceController::delete($id = null)
+in APPPATH\Controllers\EbikeController.php on line 113.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

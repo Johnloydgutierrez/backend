@@ -81,7 +81,7 @@ class EbikeController extends ResourceController
       return 'uploads/' .$imageName;
   }
 
-  public function updateItem($id)
+  public function updateI($id)
 {
     $main = new EbikeModel();
     $data = $main->find($id);
@@ -95,51 +95,29 @@ class EbikeController extends ResourceController
     $data = [
         'productName' => $this->request->getVar('productName'),
         'description' => $this->request->getVar('description'),
-
+        'quantity' => $this->request->getVar('quantity'),
         'category' => $this->request->getVar('category'),
         'categImage' => $this->request->getVar('categImage'),
         'price' => $this->request->getVar('price'),
     ];
     // Use the where clause to update the existing data
-    $main->set($data)->where('ID', $id)->update();
+    $main->set($data)->where('id', $id)->update();
     //
     // if ($main->affectedRows() > 0) {
     //     return $this->respond(['message' => 'Item updated successfully.'], 200);
     // } else {
     //     return $this->respond(['error' => 'Unable to update item.'], 500);
     // }
-
 }
 
-      public function generatepdf()
-      {
-          $model = new EbikeModel();
-          $data = $model->findAll();
-
-          $mpdf = new Mpdf();
-
-
-          $header = '<h1>Your PDF Header</h1>';
-          $footer = '<div style="text-align: center; font-style: italic;">Your PDF Footer</div>';
-
-          $mpdf->setHTMLHeader($header);
-          $mpdf->SetHTMLFooter($footer);
-
-          $html = '<h2>Data from Database</h2>';
-          foreach ($data as $row) {
-              $html .= '<p>' . implode(', ', (array) $row) . '</p>';
-          }
-          $mpdf->WriteHTML($html);
+public function delt()
+{
+    $json = $this->request->getJSON();
+    $id = $json->id;
+    $main = new EbikeModel();
+    $r = $main->delete($id);
+    return $this->respond($r, 200);
+}
 
 
-          $mpdfContent = $mpdf->Output('', 'S');
-
-          header('Content-Type: application/pdf');
-          header('Content-Disposition: attach; filename="output.pdf"');
-          header('Cache-Length: ' . strlen($mpdfContent));
-
-
-          echo $mpdfContent;
-
-      }
   }
