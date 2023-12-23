@@ -61,6 +61,26 @@ class Home extends ResourceController
       }
 
     }
+    public function updateVoid()
+    {
+      $upc = $this->request->getVar('upc');
+      $quantity = $this->request->getVar('quantity');
+      $product = new ProductModel();
+      $audit = new AuditModel();
+      $pr = $product->where('upc', $upc)->first();
+      if($pr){
+        $nq = $pr['quantity'] + $quantity;
+        $product->set('quantity', $nq)->where('upc', $upc)->update();
+        $data = [
+          'productID' =>$pr['id'],
+          'oldQuantity' =>$pr['quantity'],
+          'quantity' => $quantity,
+          'type' => 'void'
+        ];
+        $audit->save($data);
+      }
+
+    }
     public function getProducts()
     {
       $product  = new ProductModel();
